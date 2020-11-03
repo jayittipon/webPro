@@ -1,0 +1,54 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-size: small;
+}
+body{
+    background: linear-gradient(rgba(3, 255, 234, 0.15), rgba(0, 255, 106, 0.15)), url(/img/daniel-von-appen-QUHlPs4y8PQ-unsplash\ \(2\).jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top;
+}
+.container{
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signin{
+    background-color: rgba(255, 255, 255, 0.4);/*พื้นหลังโปร่งใส*/
+    padding: 20px 40px;
+}
+
+.logo{
+    text-align: center;
+}
+
+.text-input {
+    padding:10px;
+    margin:10px 0;
+    border: 0;
+    box-shadow:0 0 4px rgba(0,0,0,0.3);
+    border-radius:3px;
+}
+.text-input:hover {
+    box-shadow:0 0 4px rgba(0,0,0,0.5);
+}
+
+.primary-btn{
+    margin: 10px 0 0 0 ;
+    width: 100%;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px; 
+    border-radius: 2px;
+}
